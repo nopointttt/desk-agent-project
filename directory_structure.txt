@@ -1,0 +1,65 @@
+﻿
+╤ЄЁєъЄєЁр яряюъ Єюьр Local Disk
+╤хЁшщэ√щ эюьхЁ Єюьр: 6463-A098
+C:.
+|   debugging_knowledge_base.md
+|   directory_structure.txt
+|   README.md
+|   requirements.txt
+|   test_model.py
+|   
++---.vscode
+|       settings.json
+|       
++---desk dev session01
+|       Google Gemini.mhtml
+|       readme s01.txt
+|       
++---desk_agent
+|   |   ai_service.py
+|   |   custom_scene.py
+|   |   custom_view.py
+|   |   main.py
+|   |   main_window.py
+|   |   tools.py
+|   |   __init__.py
+|   |   
+|   +---frames
+|   |   |   base_frame.py
+|   |   |   text_frame.py
+|   |   |   web_frame.py
+|   |   |   __init__.py
+|   |   |   
+|   |           base_frame.cpython-313.pyc
+|   |           text_frame.cpython-313.pyc
+|   |           web_frame.cpython-313.pyc
+|   |           __init__.cpython-313.pyc
+|   |           
+|           ai_service.cpython-313.pyc
+|           custom_scene.cpython-313.pyc
+|           custom_view.cpython-313.pyc
+|           main_window.cpython-313.pyc
+|           rag_service.cpython-313.pyc
+|           tools.cpython-313.pyc
+|           
++---models
+|   \---all-MiniLM-L6-v2
+|       |   config.json
+|       |   config_sentence_transformers.json
+|       |   model.safetensors
+|       |   modules.json
+|       |   README.md
+|       |   sentence_bert_config.json
+|       |   special_tokens_map.json
+|       |   tokenizer.json
+|       |   tokenizer_config.json
+|       |   vocab.txt
+|       |   
+|       \---1_Pooling
+|               config.json
+|               
+\---workspace
+        hello.txt
+        
+
+

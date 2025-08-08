@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# Local data & secrets
+chroma/
+*.db
+.env
