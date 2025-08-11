@@ -1,0 +1,93 @@
+/* DESK TOP - Swiss Style (Light Theme) */
+
+/* Глобальные настройки */
+QWidget {
+    background-color: #f4f4f4; /* Очень светлый серый фон */
+    color: #333333; /* Темно-серый текст для контраста */
+    font-family: Arial, "Helvetica Neue", sans-serif; /* Чистый шрифт без засечек */
+}
+
+/* Основа главного окна */
+QMainWindow {
+    background-color: #e8e8e8; /* Фон для области сетки */
+}
+
+/* Панель управления */
+QDockWidget::title {
+    background-color: #e8e8e8;
+    color: #333333;
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+/* Поле ввода */
+QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 0; /* Острые углы */
+    padding: 8px;
+    font-size: 14px;
+}
+QLineEdit:focus {
+    border: 1px solid #d10000; /* Красный акцент при фокусе */
+}
+
+/* Основная кнопка */
+QPushButton {
+    background-color: #d10000; /* Классический красный акцент */
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    padding: 9px 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #a30000; /* Более темный красный при наведении */
+}
+
+/* Базовый фрейм */
+#BaseFrameWidget {
+    background-color: #ffffff;
+    border: 1px solid #333333; /* Четкая черная рамка */
+    border-radius: 0;
+}
+
+/* Заголовок фрейма */
+#BaseFrameTitleBar {
+    background-color: #333333; /* Черный заголовок для максимального контраста */
+}
+#BaseFrameTitleBar QLabel {
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 14px;
+}
+
+/* Кнопка закрытия фрейма */
+#CloseButton {
+    background-color: #d10000;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+#CloseButton:hover {
+    background-color: #a30000;
+}
+
+/* Области контента внутри фреймов */
+QTextEdit, QWebEngineView {
+    border: none;
+    background-color: #ffffff;
+}
+
+/* Строка состояния */
+QStatusBar {
+    background-color: #f4f4f4;
+    font-size: 12px;
+}
